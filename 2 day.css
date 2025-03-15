@@ -1,0 +1,47 @@
+.box{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    background-color: burlywood;
+    text-align: center;
+    color: blue;
+    text-decoration: wavy;
+
+}
+.box1{
+    width: 200px;
+    height: 200x;
+    padding: 30px;
+    background-color:rebeccapurple;
+    text-align: end;
+    color:burlywood;
+    text-decoration: wavy;
+}
+body{
+    margin: auto;
+}
+li{
+    list-style: lower-greek;
+    text-decoration: underline;
+}
+ul{
+    display: flex;
+    gap: 30px
+    ;
+}
+h1{
+    text-shadow: 5px 10px 2px brown;
+}
+h1:hover{
+    text-shadow: 5px 10px 2px yellow;
+}
+button{
+    width: 200px;
+    height: 50px;
+    padding: 30px;
+    background-color: brown;
+    font-size: medium;  
+}
+button:hover{
+    margin-left: 100px; zz
+}

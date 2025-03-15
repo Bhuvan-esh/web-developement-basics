@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display full name</title>
+    <script src="lib.js"></script>
+</head>
+<body>
+    <div ng-controller="myCtrl">
+        firstname: <input type="text" ng-model="fn" placeholder="enter your firstname">
+        lastname: <input type="text" ng-model="ln" placeholder="enter your lastname">
+
+        <button ng-click="displayfullname()">display your fullname</button>
+        <h2>your full name is:{{fullname}}</h2>
+    </div>
+    <script>
+        var app = angular.module("myApp", []);
+        app.controller("myCtrl", function($scope){
+        $scope.fn="J";
+        $scope.ln="bhuvanesh";
+        $scope.displayfullname=function(){
+                $scope.fullname= $scope.fn +" " +$scope.ln;
+        }
+    });
+    </script>
+
+
+    
+</body>
+</html>

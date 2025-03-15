@@ -1,0 +1,37 @@
+h1{
+    color: burlywood
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+body{
+/* background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed; */
+}
+body{
+    background-color: black;
+}
+img{
+    width: 250PX;
+    height: 150px;
+}
+img.a:hover{
+    filter: blur(3px);
+    
+}
+img.b:hover{
+    filter: invert(30%);
+}
+img.c:hover{
+    filter: opacity(20%);
+}
+img.d:hover{
+    filter: brightness(20%);
+}
+img.e:hover{
+    filter: grayscale(50);
+}
+img.f:hover{
+    filter: contrast(25);
+}
